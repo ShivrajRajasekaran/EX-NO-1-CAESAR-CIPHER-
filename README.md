@@ -1,11 +1,12 @@
-### **Exercise No-1: Caesar Cipher Program**
+# Exercise No-1:
+# Caesar Cipher Program
 
-#### **Aim:**
+# Aim:
 To implement Caesar Cipher encryption and decryption programs in C.
 
-#### **Algorithm:**
+# Algorithm:
 
-1. **Encryption**:
+# 1. Encryption:
    - Take a plaintext message and a shift value.
    - For each character in the plaintext:
      - If the character is an uppercase letter, shift it by the given key within the range of A-Z.
@@ -13,14 +14,14 @@ To implement Caesar Cipher encryption and decryption programs in C.
      - Non-alphabet characters remain unchanged.
    - Display the encrypted message.
 
-2. **Decryption**:
+# 2. Decryption:
    - Take the ciphertext and the same shift value used for encryption.
    - For each character in the ciphertext:
      - Reverse the shift applied during encryption within the range of A-Z for uppercase letters and a-z for lowercase letters.
      - Non-alphabet characters remain unchanged.
    - Display the decrypted message.
 
-#### **Encryption Code:**
+# Encryption Code:
 
 ```
 #include <stdio.h>
@@ -60,7 +61,7 @@ int main() {
 }
 ```
 
-#### **Decryption Code:**
+# Decryption Code:
 
 ```
 #include <stdio.h>
@@ -100,13 +101,13 @@ int main() {
 }
 ```
 
-#### **Sample Output for Encryption:**
+# Sample Output for Encryption:
 ![image](https://github.com/user-attachments/assets/db14ae12-80f0-4bd5-97fa-6b4efbb1b7fc)
 
 
-#### **Sample Output for Decryption:**
+# Sample Output for Decryption:
 ![image](https://github.com/user-attachments/assets/7782e2c2-25c5-4ff7-8c96-cde9678e71dc)
 
 
-### RESULT:
+# RESULT:
 The Caesar Cipher encryption and decryption programs were successfully implemented in C. The encryption code correctly converts the plaintext into ciphertext using the given shift value, and the decryption code accurately recovers the original plaintext from the ciphertext.
